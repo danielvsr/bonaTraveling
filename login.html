@@ -14,10 +14,38 @@
     />
 </head>
 <body>
+    <nav class="navbar navbar-dark" style="background-color: #b61538c9;">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Programa Empleo Independiente</span>              
+            <ul class="nav justify-content-end" >
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Crear cuenta</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col">
-                1 de 12
+                <form class="position-relative position-absolute top-50 start-50 translate-middle shadow p-3 mb-5 bg-body rounded 
+                w-25 p-3">
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">User name</label>
+                        <input type="text" class="form-control" id="userName" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your user with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <a class="btn btn-danger" href="index.html" role="button">Ingresar</a>
+                </form>
             </div>
         </div>
     </div>
