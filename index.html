@@ -4,41 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Programa Empleo Independiente</title>
+    <title>Bonaventura traveling</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
+    <!--<link rel="stylesheet" href="/css/style.css">-->
+
   </head>
-  <body>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="login.html">Iniciar sesión</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Crear cuenta</a>
-        </li>
-    </ul>
-    <div class="container">
+  <body class="bg-light bg-gradient">
+    <!--ACA EMPIEZA EL ENCABEZADO-->  
+    <nav class="navbar navbar-dark bg-warning" >
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 d-none d-lg-block col-md-4 col-lg-4 col-xl-4 "><h3 class="my-0 p-1 text-center text-uppercase">Bonaventura traveling</h3></span>              
+            <ul class="nav justify-content-end" >
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Iniciar sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="form.html">Crear cuenta</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mw-100 ">
+    <div class="container mw-100 my-3">
         <div class="row">
-            <div class="col">
-            1 de 3
+            <h1 class="display-3 text-uppercase text-center text-primary ">Elija su destino</h1>   
+        </div>
+    </div>
+    <!--ACA EMPIEZAN LAS CARD, AVERIGUAR EL TEMA DEL LARGO (SE MODIFICO LOS PIXELES A LAS FOTOS)-->
+    <div class="container w-100">
+        <div class="row align-middle d-flex justify-content-center">
+            <div class="card mx-4 my-2 p-0 shadow" style="width: 18rem;">
+            <img src="/img/neu.jpg" class="card-img-bottom img-fluid rounded-top" alt="Destino Neuquen">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase ">Vuelos</h6>
+                    <h5 class="card-title text-primary">Viajá de Buenos Aires a Neuquen</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="col">
-            2 de 3
+            <div class="card mx-4 my-2 p-0 shadow" style="width: 18rem;">
+            <img src="/img/igua.jpg" class="card-img-top rounded" alt="Destino Cataratas del Iguazú">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase ">Vuelos</h6>
+                    <h5 class="card-title text-primary">Viajá de Buenos Aires a Puerto Iguazú</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="col">
-            3 de 3
+            <div class="card mx-4 my-2 p-0 shadow" style="width: 18rem;">
+            <img src="/img/sal.jpg" class="card-img-top rounded" alt="Destino Salta">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase ">Vuelos</h6>
+                    <h5 class="card-title text-primary">Viajá de Buenos Aires a Salta</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mx-4 my-2 p-0 shadow" style="width: 18rem;">
+            <img src="/img/usu.jpeg" class="card-img-top rounded" alt="Destino Usuhaia">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase ">Vuelos</h6>
+                    <h5 class="card-title text-primary">Viajá de Còrdoba a Usuhaia</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mx-4 my-2 p-0 shadow" style="width: 18rem;">
+            <img src="/img/mar.jpeg" class="card-img-top rounded" alt="Destino Mar del Plata">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase ">Vuelos</h6>
+                    <h5 class="card-title text-primary">Viajá de Còrdoba a Mar del Plata</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card mx-4 my-2 p-0 shadow" style="width: 18rem;">
+            <img src="/img/san.jpeg" class="card-img-top rounded" alt="Destino San Rafael">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted text-uppercase ">Vuelos</h6>
+                    <h5 class="card-title text-primary">Viajá de Mar del Plata a San Rafeal</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>
-
+</div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
