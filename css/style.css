@@ -1,4 +1,19 @@
-body{
-    background: #4182e4c5;
-    background: linear-gradient(to bottom right, #4182e4c5, #e9cf88f8);
+.nav-link{
+    color:  #d30476!important;
+    font-family: 'Antonio', 'Anton',sans-serif;
+    font-size: 1.25rem;
+}
+.btn-primary{
+    background: #014682;
+    border: #014682;
+}
+.btn-secundary{
+    background: #d30476;
+    border: #d30476;
+}
+.text-primary{
+    color: #d30476!important;
+}
+.bg-primary{
+    background: #014682!important;
 }
