@@ -21,10 +21,11 @@
 
     </head>
     <body class="bg-light">
-        <!--ACA EMPIEZA EL ENCABEZADO-->
-        <nav class="navbar navbar-light navbar-expand-md bg-white" style="border-bottom:3px solid rgb(211, 4, 118);"  >
+        <!--ACA EMPIEZA EL ENCABEZADO-->  
+        <nav class="navbar navbar-light navbar-expand-md bg-white" style="border-bottom:3px solid rgb(211, 4, 118);" >
             <div class="container">
-                <a href="../index.html" class="navbar-brand"><img src="../img/logoBT.jpeg" width="220" height="auto" alt="Logo Bonaventura Traveling"></a>
+                <a href="../index.html" class="navbar-brand"><img src="../img/LogoBT2.png" 
+                    width="220" height="auto" alt="Logo Bonaventura Traveling" class="img-fluid"></a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal"
                         aria-expanded="false" aria-label="Desplegar menú de navegación">
                     <span class="navbar-toggler-icon"></span>
@@ -39,39 +40,42 @@
                 </div>
             </div>
         </nav>
-        <!--ACA EMPIEZA EL LOGIN Y SUS CONTENEDORES-->
-        <div class="container w-25 mt-5 mb-5 rounded-3 shadow container-sm">
+        <!--ACA EMPIEZA EL FORMULARIO DEL INDEX-->
+        <section class="container">
             <div class="row">
-                <div class="col p-3 bg-white rounded">
+                <div class="w-50 my-4 mx-auto p-3 border shadow rounded-2">
                     <div class="text-end">
-                        <img src="../img/logoBT.jpeg" width="150" alt="Bonaventura Traveling Logo">
+                        <img src="../img/logoBT2.png" width="150" alt="Bonaventura Traveling Logo" class="img-fluid">
                     </div>
-                    <h2 class="fw-bold text-center py-3 text-primary">Bienvenido</h2>
-                    <!--LOGIN-->
-                    <form class="row g-3">
-                        <div class="mb-4">
-                            <label for="email" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                        </div>
-                        <div class="mb-4">
-                            <label for="pass1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="pass1" required>
-                        </div>
-                        <div class="mb-4">
-                            <input type="checkbox" name="conectado" class="form-check-input">
-                            <label for="conectado" class="form-check-label">Mantener sesión iniciada</label>
-                        </div>
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary" href="index.html" >Iniciar Sesión</button>
-                        </div>
-                        <div class="my-4">
-                            <span>No tienes cuenta? <a href="form.html">Regístrate</a></span><br>
-                            <span><a href="#">Recuperar contraseña</a></span>
-                        </div>
+                    <h2 class="fw-bold text-center py-3 text-primary d-none d-md-block">Bienvenido</h2>
+                    <form class="mt-3">
+                            <div class="col-12 mb-3">
+                                <div class="form-floating text-muted">
+                                    <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+                                    <label for="email">Correo Electrónico</label>
+                                </div>   
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="form-floating text-muted">
+                                    <input type="password" class="form-control" id="pass1" placeholder="Contraseña">
+                                    <label for="pass1">Contraseña</label>
+                                </div>   
+                            </div>
+                            <div class="mb-4">
+                                <input type="checkbox" name="conectado" class="form-check-input">
+                                <label for="conectado" class="form-check-label">Mantener sesión iniciada</label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary" href="../index.html">Iniciar Sesión</button>
+                            </div>
+                            <div class="my-3">
+                                <span>No tienes cuenta? <a href="../navegacion/form.html">Regístrate</a></span><br>
+                                <span><a href="#">Recuperar contraseña</a></span>
+                            </div>                       
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script
