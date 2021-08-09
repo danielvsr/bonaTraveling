@@ -1,6 +1,10 @@
 a{
     text-decoration: none;
 }
+.bg{
+    background-image: url(../img/pasajero.jpg);
+    background-position: center center;
+}
 .nav-link{
     color:  #d30476!important;
     font-family: 'Antonio', 'Anton',sans-serif;
